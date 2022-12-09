@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Calculator.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+</head>
+
+<body>
+    <div class="container">
+    <div class="text">
+        <h3>This is a calculator application made using HTML, CSS and Javascript, and subsequently ported <br />over to Android, that is as of now, capable of computing multiple digit number operations with <br />2 whole numbers and 1 mathematical operator at a time.</h3>
+        <h3>Use it just like any other regular calculator.</h3>
+    </div>
+
+    
+
+    <div class="butt">
+
+        
+
+            <h2 class="screen" id="scr"></h2>
+        
+
+        <button class="buttons" id="1">1</button>
+        <button class="buttons" id="2">2</button>
+        <button class="buttons" id="3">3</button>
+        <button class="buttons" onclick="plus()">+</button>
+
+        <br />
+        <button class="buttons" id="4">4</button>
+        <button class="buttons" id="5">5</button>
+        <button class="buttons" id="6">6</button>
+        <button class="buttons" onclick="minus()">-</button>
+        <br />
+        <button class="buttons" id="7">7</button>
+        <button class="buttons" id="8">8</button>
+        <button class="buttons" id="9">9</button>
+        <button class="buttons" onclick="divide()">/</button>
+        <br />
+        <button class="buttons" onclick="dash()">C</button>
+        <button class="buttons" id="0">0</button>
+        <button class="buttons" onclick="equals()">=</button>
+        <button class="buttons" onclick="multiply()">X</button>
+        <br />
+        <button class="buttons" onclick="factorial()">!</button>
+        <button class="buttons" onclick="power()">^</button>
+        <button class="buttons" onclick="decimal()">.</button>
+        <button class="buttons" onclick="backspace()">Back</button>
+        <br />
+        <button class="buttons" onclick="binary()">BIN</button>
+        <button class="buttons" onclick="dec()">DEC</button>
+
+
+
+    </div>
+
+   
+   
+        </div>
+    <script src="Calculator.js"></script>
+
+</body>
+</html>

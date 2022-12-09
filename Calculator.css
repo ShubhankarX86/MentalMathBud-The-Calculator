@@ -1,0 +1,79 @@
+
+
+body {
+    background-image: url(background.jpg);
+    background-size:cover;
+    
+    
+}
+
+
+
+
+
+.screen {
+    background: transparent;
+    text-align: center;
+    width: 39.6vw;
+    height: 2.5vw;
+    margin-left: 29vw;
+    margin-top: 3vw;
+    font-family: 'Orbitron', sans-serif;
+    border: 0.2vw solid #4762eb;
+    border-radius: 0.4vw;
+    box-shadow: 0 0.5vw #4762eb;
+    color: darkblue;
+    font-size: 2vw;
+}
+
+.butt{
+    text-align: center;
+    margin-left: 1vw;
+}
+
+
+
+.buttons {
+    background:transparent;
+    border: 0.25vw solid #00B4CC;
+    color:darkblue;
+    width: 9.5vw;
+    margin-left: 0.4vw;
+    margin-top: 1vw;
+    height: 3.5vw;
+    text-decoration: double;
+    display: inline-block;
+    font-size: 2vw;
+    border-radius: 0.7vw;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0.4vw #00B4CC;
+    
+}
+
+    .buttons:hover {
+        background-color: deepskyblue;
+        transition: 0.1s;
+    }
+
+    .buttons:active {
+        background-color:dodgerblue;
+        box-shadow: 0 3px darkblue;
+        transform: translateY(4px);
+    }
+
+.text {
+    font-family: 'Comic Sans MS';
+    color: darkblue;
+    text-align: center;
+    margin-top:-0.7vw;
+    font-size: 1.35vw;
+}
+
+@media all and (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
