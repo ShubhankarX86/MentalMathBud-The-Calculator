@@ -1,14 +1,6 @@
 
 let screen = document.getElementById("scr");
 
-// array to store 0-9 integers
-let num = new Array(10);
-
-// for-loop to store 0-9 integers
-for (let i = 0; i < 10; i++) {
-    num[i] = i;
-}
-
 // last(las) and latest(lat) variables for 2 whole numbers
 let las = " ";
 let lat = " ";
@@ -23,20 +15,17 @@ for (let b = 0; b < 10; b++) {
     document.getElementById(b).onclick = function (){
         if (isSpace == false) {
 
-            las = num[b] + 10 * las;
+            las = b + 10 * las;
 
         }
-
         else {
 
-            lat = num[b] + 10 * lat;
+            lat = b + 10 * lat;
         }
 
         screen.innerText = las + " " + operator + " " + lat;
     }
 }
-
-
 
 //Functions for Mathematical operators
 
@@ -229,7 +218,6 @@ function equals() {
         clear();
     }
     
-    
 }
 
 function dash() {
@@ -239,6 +227,4 @@ function dash() {
     result = " ";
     isSpace = false;
     screen.innerText = "--MEMORY CLEARED--";
-    
 } 
-
